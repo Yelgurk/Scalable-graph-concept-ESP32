@@ -1,0 +1,15 @@
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\bin\Debug\ScalableGraphWPFExample.exe.config
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\bin\Debug\ScalableGraphWPFExample.exe
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\bin\Debug\ScalableGraphWPFExample.pdb
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.csproj.AssemblyReference.cache
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\MainWindow.g.cs
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\App.g.cs
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample_MarkupCompile.cache
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample_MarkupCompile.lref
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\MainWindow.baml
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.g.resources
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.Properties.Resources.resources
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.csproj.GenerateResource.cache
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.csproj.CoreCompileInputs.cache
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.exe
+D:\VSProjects\ESP32\ScalableGraphWPFExample\ScalableGraphWPFExample\obj\Debug\ScalableGraphWPFExample.pdb

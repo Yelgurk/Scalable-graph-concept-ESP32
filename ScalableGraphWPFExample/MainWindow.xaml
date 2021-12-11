@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Border BorderThickness="2"
+                BorderBrush="Gray"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+            <Canvas x:Name="Plot"/>
+        </Border>
     </Grid>
 </Window>
