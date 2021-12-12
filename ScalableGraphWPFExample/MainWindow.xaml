@@ -6,12 +6,10 @@
         xmlns:local="clr-namespace:ScalableGraphWPFExample"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Border BorderThickness="2"
-                BorderBrush="Gray"
+    <Grid Background="Gray">
+        <Canvas x:Name="Plot"
                 VerticalAlignment="Center"
-                HorizontalAlignment="Center">
-            <Canvas x:Name="Plot"/>
-        </Border>
+                HorizontalAlignment="Center"
+                Background="White"/>
     </Grid>
 </Window>

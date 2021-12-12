@@ -23,54 +23,26 @@ namespace ScalableGraphWPFExample
     public partial class MainWindow : Window
     {
         public GI CustomGraph;
+        private Random rand = new Random();
 
         public MainWindow()
         {
             InitializeComponent();
-            CustomGraph = new GI(64, 32, Plot);
-            CustomGraph.SetHMarkup(10);
+            CustomGraph = new GI(128, 64, Plot);
+            CustomGraph.SetHMarkup(20);
 
             Demo();
         }
 
         public void DisplayValue(short next) => CustomGraph.Display(next);
 
-        public async Task Demo()
+        public async Task Demo(int span = 500)
         {
-            DisplayValue(20);
-            await Task.Delay(1000);
-
-            DisplayValue(100);
-            await Task.Delay(1000);
-
-            DisplayValue(50);
-            await Task.Delay(1000);
-
-            DisplayValue(10);
-            await Task.Delay(1000);
-
-            DisplayValue(30);
-            await Task.Delay(1000);
-
-            DisplayValue(80);
-            await Task.Delay(1000);
-
-            DisplayValue(10);
-            await Task.Delay(1000);
-
-            DisplayValue(15);
-            await Task.Delay(1000);
-
-            DisplayValue(10);
-            await Task.Delay(1000);
-
-            DisplayValue(5);
-            await Task.Delay(1000);
-
-            DisplayValue(95);
-            await Task.Delay(1000);
-
-            DisplayValue(40);
+            while (true)
+            {
+                DisplayValue((short)rand.Next(-30, 90));
+                await Task.Delay(span);
+            }
         }
     }
 }
