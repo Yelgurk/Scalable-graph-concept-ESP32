@@ -7,9 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Canvas x:Name="Plot"
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 Background="White"/>
+
+        <TextBlock Text="SPACE = start/stop"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+        <DockPanel Background="White"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Grid.Row="1">
+            <DockPanel.Resources>
+                <Style TargetType="{x:Type StackPanel}">
+                    <Setter Property="Margin" Value="0 0 20 0"/>
+                </Style>
+            </DockPanel.Resources>
+            <StackPanel>
+                <TextBlock Text="(index)"/>
+                <TextBlock Text="Val1"/>
+                <TextBlock Text="Val2"/>
+                <TextBlock Text="VStep"/>
+                <TextBlock Text="HStep"/>
+                <TextBlock Text="X0"/>
+                <TextBlock Text="Y0"/>
+                <TextBlock Text="X1"/>
+                <TextBlock Text="Y1"/>
+            </StackPanel>
+            <DockPanel x:Name="TablePresenter"/>
+        </DockPanel>
     </Grid>
 </Window>

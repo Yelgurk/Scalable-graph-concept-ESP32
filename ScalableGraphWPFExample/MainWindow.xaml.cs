@@ -24,14 +24,20 @@ namespace ScalableGraphWPFExample
     {
         public GI CustomGraph;
         private Random rand = new Random();
+        private bool beeep = true;
 
         public MainWindow()
         {
+            this.KeyDown += (object sender, KeyEventArgs e) => {
+                if (e.Key == Key.Space)
+                    beeep = !beeep;
+            };
+
             InitializeComponent();
-            CustomGraph = new GI(128, 64, Plot);
+            CustomGraph = new GI(256, 128, Plot, TablePresenter);
             CustomGraph.SetHMarkup(20);
 
-            Demo();
+            Demo(1000);
         }
 
         public void DisplayValue(short next) => CustomGraph.Display(next);
@@ -40,7 +46,8 @@ namespace ScalableGraphWPFExample
         {
             while (true)
             {
-                DisplayValue((short)rand.Next(-30, 90));
+                if (beeep)
+                    DisplayValue((short)rand.Next(-100, 100));
                 await Task.Delay(span);
             }
         }
